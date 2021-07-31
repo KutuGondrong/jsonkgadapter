@@ -1,7 +1,7 @@
 # JSONKGADAPTER
 
-JSONKG is a library Android that can be used to convert Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent object. 
-This library for adapter JSONKG
+[JSONKG](https://github.com/KutuGondrong/json-kg) is a library Android that can be used to convert Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent object. 
+This library for adapter [JSONKG](https://github.com/KutuGondrong/json-kg)
 ## Usage
 
 Add it in your root build.gradle at the end of repositories:

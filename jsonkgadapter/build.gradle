@@ -44,8 +44,8 @@ android {
 }
 
 dependencies {
-    api 'com.github.KutuGondrong:jsonkglibrary:0.0.1'
-    api 'com.github.KutuGondrong:networkkgadapter:0.0.1'
+    api 'com.github.KutuGondrong:networkadapter-kg:0.0.1'
+    api 'com.github.KutuGondrong:json-kg:0.0.1'
 }
 
 afterEvaluate {

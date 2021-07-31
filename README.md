@@ -22,13 +22,14 @@ Step 2. Add the dependency
 ```
 
 	dependencies {
-	        implementation 'com.github.KutuGondrong:jsonkglibrary:0.0.1'
+	        implementation 'com.github.KutuGondrong:jsonkgadapter-kg:0.0.1'
 	}
 
 ```
 ## Goals
 
-Provide simple toJson() and fromJson() methods to convert objects to JSON
+Provide simple toJson() and fromJson() methods to convert objects to JSON 
+[Json-kg](https://github.com/KutuGondrong/json-kg)
 
 ## Website
 [kutugondrong.com](https://kutugondrong.com/)

@@ -22,11 +22,12 @@ class JsonKGAdapter: ConverterNetworkKGAdapter(JSONKGADAPTER) {
         }
     }
 
-    override fun fromJson(json: String, classOf: KClass<*>, adapterClass: KClass<*>?): Any {
-        if(adapterClass == null) {
-            return JsonKG().fromJson(json, classOf)
-        }
-        return JsonKG().fromJson(json, adapterClass, true)
+    override fun fromJson(json: String, classOf: KClass<*>, isList: Boolean): Any? {
+        return JsonKG().fromJson(json, classOf, isList)
+    }
+
+    override fun toJson(value: Any): String? {
+        return JsonKG().toJson(value)
     }
 
 }
